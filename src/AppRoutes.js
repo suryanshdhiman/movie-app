@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes,Navigate  } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
 import Home from "./Pages/Home";
 import Watchlist from "./Pages/Watchlist";
@@ -77,7 +77,7 @@ const AppRoutes = () => {
       <NavBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
       <Routes>
         <Route
-          path="/"
+          path="/home"
           element={
             <>
               <Home
@@ -96,6 +96,7 @@ const AppRoutes = () => {
             </>
           }
         />
+        <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/watchlist" element={<Watchlist searchTerm={searchTerm} watchlist={watchlist} setWatchlist={setWatchlist} />} />
         
         <Route path="/confirm-modal" element={<ConfirmModal />} />
