@@ -1,9 +1,10 @@
 import "../Style/home.css";
+import avengerImg from "../img/avenger.jpg"
 
 const HOME = ({ searchTerm, filteredMovies, isInWatchlist, removeFromWatchlist, addToWatchlist }) => {
   return (
     <div className="banner">
-      <img src="avenger.jpg" alt="Banner" className="banner__image" />
+      <img src={avengerImg} alt="Banner" className="banner__image" />
 
       <div className="movies">
         {filteredMovies.length > 0 ? (

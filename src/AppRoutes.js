@@ -77,7 +77,7 @@ const AppRoutes = () => {
       <NavBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
       <Routes>
         <Route
-          path="/home"
+          path="/movie-app"
           element={
             <>
               <Home
@@ -96,7 +96,7 @@ const AppRoutes = () => {
             </>
           }
         />
-        <Route path="/" element={<Navigate to="/home" />} />
+        <Route path="/" element={<Navigate to="/movie-app" />} />
         <Route path="/watchlist" element={<Watchlist searchTerm={searchTerm} watchlist={watchlist} setWatchlist={setWatchlist} />} />
         
         <Route path="/confirm-modal" element={<ConfirmModal />} />
