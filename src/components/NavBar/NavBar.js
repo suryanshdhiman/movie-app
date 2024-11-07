@@ -12,7 +12,7 @@ const NavBar = ({searchTerm,setSearchTerm}) => {
   return (
     <nav className="navbar">
       <div className="navbar__logo">
-        <Link to="/home">Movies</Link>
+        <Link to="">Movies</Link>
       </div>
 
       <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />

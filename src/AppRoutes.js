@@ -77,7 +77,7 @@ const AppRoutes = () => {
       <NavBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
       <Routes>
         <Route
-          path="/movie-app"
+          path="/"
           element={
             <>
               <Home
