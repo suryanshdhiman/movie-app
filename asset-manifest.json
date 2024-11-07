@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/movie-app/home/static/css/main.929ca58b.css",
-    "main.js": "/movie-app/home/static/js/main.9340a853.js",
-    "static/media/avenger.jpg": "/movie-app/home/static/media/avenger.55caff5165e1133b41e0.jpg",
-    "index.html": "/movie-app/home/index.html",
-    "main.929ca58b.css.map": "/movie-app/home/static/css/main.929ca58b.css.map",
-    "main.9340a853.js.map": "/movie-app/home/static/js/main.9340a853.js.map"
+    "main.css": "/movie-app/static/css/main.929ca58b.css",
+    "main.js": "/movie-app/static/js/main.ec8d17e9.js",
+    "static/media/avenger.jpg": "/movie-app/static/media/avenger.55caff5165e1133b41e0.jpg",
+    "index.html": "/movie-app/index.html",
+    "main.929ca58b.css.map": "/movie-app/static/css/main.929ca58b.css.map",
+    "main.ec8d17e9.js.map": "/movie-app/static/js/main.ec8d17e9.js.map"
   },
   "entrypoints": [
     "static/css/main.929ca58b.css",
-    "static/js/main.9340a853.js"
+    "static/js/main.ec8d17e9.js"
   ]
 }
